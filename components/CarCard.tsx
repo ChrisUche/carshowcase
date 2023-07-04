@@ -66,7 +66,7 @@ const CarCard = ({ car }: CarCardProps) => {
             <div className='car-card__btn-container'>
                 <CustomButton  
                     title='View More'
-                    containerStyles='w-full py-[16px] rounded-full bg-primary-blue'
+                    containerStyles='w-full py-[16px] rounded-full bg-green-700'
                     textStyles = " text-white text-[14px] leading-17[px] font-bold"
                     rightIcon="/right-arrow.svg"
                     handleClick={() => setIsOpen(true)}

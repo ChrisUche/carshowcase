@@ -22,7 +22,7 @@ const ShowMore = ({ pageNumber, isNext, setLimit }: ShowMoreProps) => {
                 <CustomButton 
                     title={"Show More"} 
                     btnType="button"
-                    containerStyles="bg-primary-blue rounded-full text-white hover:scale-110 "
+                    containerStyles="bg-green-700 rounded-full text-white hover:scale-105 hover:bg-green-800 "
                     handleClick={handleNavigation}/>
             )
         }
