@@ -16,13 +16,13 @@ const handleScroll =() => {
 
             <CustomButton
                 title="Explore Cars"
-                containerStyles="bg-primary-blue text-white rounded-full mt-10"
+                containerStyles="bg-green-700  text-white rounded-full mt-10 hover:bg-green-800"
                 handleClick={handleScroll}
             />
         </div>
         <div className='hero__image-container'>
             <div className='hero__image'>
-                <Image src="/hero.png" alt='hero' fill className='object-contain'/>
+                <Image src="/benzo.png" alt='hero' fill className='object-contain'/>
             </div>
             <div className='hero__image-overlay'/>
         </div>
